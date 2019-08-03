@@ -37,7 +37,8 @@
     "slate-edit-list": "^0.12.1",
     "slate-edit-table": "^0.18.0",
     "slate-react": "^0.22.4",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "webfontloader": "^1.6.28"
   },
   "keywords": [
     "gatsby"
