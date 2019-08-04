@@ -11,7 +11,6 @@ const Navbar = class extends React.Component {
       navBarActiveClass: '',
     }
   }
-
   toggleHamburger = () => {
     // toggle the active boolean in the state
     this.setState(

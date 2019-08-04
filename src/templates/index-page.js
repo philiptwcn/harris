@@ -37,7 +37,7 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-normal is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-family-secondary"
+          className="has-text-weight-medium is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-family-secondary"
           style={{
             boxShadow:
               'rgb(0,0, 0) 0.5rem 0px 0px, rgb(0,0, 0) -0.5rem 0px 0px',
@@ -50,7 +50,7 @@ export const IndexPageTemplate = ({
           {title}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-light is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
               'rgb(0,0, 0) 0.5rem 0px 0px, rgb(0,0, 0) -0.5rem 0px 0px',
@@ -62,6 +62,11 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
+        <div className="content is-large ">
+          <p>
+            scroll down
+          </p>
+        </div>
       </div>
     </div>
     <section className="section section--gradient">
