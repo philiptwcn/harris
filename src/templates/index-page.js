@@ -37,13 +37,13 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen font"
+          className="has-text-weight-normal is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-family-secondary"
           style={{
             boxShadow:
               'rgb(0,0, 0) 0.5rem 0px 0px, rgb(0,0, 0) -0.5rem 0px 0px',
             backgroundColor: 'rgb(0,0, 0)',
             color: 'white',
-            lineHeight: '1',
+            lineHeight: '2',
             padding: '0.25em',
           }}
         >

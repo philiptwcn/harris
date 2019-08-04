@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Harris Asia
+title: European fashion
 image: /img/104648.jpg
 heading: Once there's fashion
-subheading: since1913
+subheading: bring by harris asia
 mainpitch:
   title: Why harris
   description: |
