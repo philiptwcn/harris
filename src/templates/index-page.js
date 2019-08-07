@@ -62,7 +62,15 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        <div className="content is-large ">
+        <div 
+          className="content is-large has-text-white is-capitalized"
+          style={{
+            backgroundColor: 'rgb(0,0, 0)',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
+        >
           <p>
             scroll down
           </p>
@@ -80,7 +88,7 @@ export const IndexPageTemplate = ({
                     <h1 className="title">{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                    <h3 className="is-size-4">{mainpitch.description}</h3>
                   </div>
                 </div>
                 <div className="columns">
@@ -88,7 +96,7 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
-                    <p>{description}</p>
+                    <p className="has-text-weight-light is-size-7">{description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />
