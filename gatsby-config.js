@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Harris Asia',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Harris, founded back in 1913 for the production of military footwear, traditionally builds high-level footwear using the same concepts of the past but always looking for style.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
