@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: European fashion
-image: /img/1.gif
+image: /img/5.png
 heading: Once there's fashion
 subheading: bring by harris asia
 mainpitch:
@@ -11,13 +11,9 @@ mainpitch:
 description: Harris成立於1913年，主要生產軍用鞋，我們是根據意大利傳統技術製造皮具產品，但總是尋求風格，最大能力下把客戶需求放在首位!
 intro:
   blurbs:
-    - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+    - image: /img/dsc_0918.png
+      text: |
+        熱銷貸款結合全新時尚態度
     - image: /img/coffee-gear.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
@@ -38,12 +34,9 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  heading: Once there's fashion
+  description: |
+    Harris成立於1913年，主要生產軍用鞋，我們是根據意大利傳統技術製造皮具產品，但總是尋求風格，最大能力下把客戶需求放在首位!
 main:
   heading: Great coffee with no compromises
   description: >
