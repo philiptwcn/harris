@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Harris Asia',
+    title: '| Harris Asia',
     description:
-      'Harris, founded back in 1913 for the production of military footwear, traditionally builds high-level footwear using the same concepts of the past but always looking for style.',
+      'Aristocratic fashion of Europe,creatively originated for the public.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
