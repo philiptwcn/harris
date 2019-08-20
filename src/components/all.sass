@@ -11,11 +11,11 @@ $primary-invert: $white
 $body-color: #333
 $black: #212121
 $family-secondary: 'Merriweather', serif
-$navbar-background-color: 'transparent'
+$navbar-background-color: $black
 
 
 .navbar .navbar-menu
-  //box-shadow:none !important
+  box-shadow:none !important
 
 .content .taglist
   list-style: none
@@ -84,6 +84,7 @@ $navbar-background-color: 'transparent'
   fill: findColorInvert(currentColor)
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
+  color: findColorInvert(currentColor)
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent

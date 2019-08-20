@@ -39,11 +39,11 @@ export const IndexPageTemplate = ({
         <h1
           className="has-text-weight-medium is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-family-secondary"
           style={{
-            boxShadow:
+            /*boxShadow:
               'rgb(0,0, 0) 0.5rem 0px 0px, rgb(0,0, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(0,0, 0)',
+            backgroundColor: 'rgb(0,0, 0)',*/
             color: 'white',
-            lineHeight: '2',
+            lineHeight: '4',
             padding: '0.25em',
           }}
         >
@@ -62,19 +62,7 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        <div 
-          className="content is-large has-text-white is-capitalized"
-          style={{
-            backgroundColor: 'rgb(0,0, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          <p>
-            scroll down
-          </p>
-        </div>
+        
       </div>
     </div>
     <section className="section section--gradient">
@@ -96,7 +84,7 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
-                    <p className="has-text-weight-light is-size-7">{description}</p>
+                    <p className="has-text-weight-light is-size-5">{description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />

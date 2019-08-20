@@ -34,14 +34,14 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent is-fixed-top "
+        className="navbar is-black is-transparent is-fixed-top"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="harris" style={{ width: '150px' }} />
+              <img src={logo} alt="harris_logo" style={{ width: '150px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
