@@ -2,7 +2,7 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Harris - Asia',
+    title: 'Harris Asia',
     description:
       'Aristocratic fashion of Europe, creatively originated for the public.',
   },
