@@ -15,33 +15,6 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    {/*Start Hero Carousel*/}
-		<section class="hero is-medium has-carousel">
-			<div id="carousel-demo" class="hero-carousel">
-        <div class="item-1">
-          {/*Slide Content*/}
-          <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-				</div>
-				<div class="item-2">
-          {/*Slide Content*/}
-          <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-				</div>
-				<div class="item-3">
-          {/*Slide Content*/}
-          <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-				</div>
-			</div>
-			<div class="hero-head"></div>
-			<div class="hero-body"></div>
-			<div class="hero-foot"></div>
-		</section>
-		{/*End Hero Carousel*/}
     <div
       className="full-width-image margin-top-0"
       style={{
