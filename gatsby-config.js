@@ -68,6 +68,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `70edozw29xn2`,
+        accessToken: `XOxcVTBTfWD2kZq_DNakRM5aiOE3af5Eoyy5LEFRBeA`,
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `70edozw29xn2`,
+        accessToken: `HE3LY3dl0t_8Cg97mq97_RN72PhpJ-Su5fjlZ7_KQUM`,
+        host: `preview.contentful.com`,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
