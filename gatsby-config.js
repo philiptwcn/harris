@@ -1,23 +1,4 @@
 var proxy = require('http-proxy-middleware')
-const config = require('./src/utils/siteConfig')
-let contentfulConfig
-
-try {
-  contentfulConfig = require('./.contentful')
-} catch (e) {
-  contentfulConfig = {
-    production: {
-      spaceId: process.env.SPACE_ID,
-      accessToken: process.env.ACCESS_TOKEN,
-    },
-  }
-} finally {
-  const { spaceId, accessToken } = contentfulConfig.production
-  if (!spaceId || !accessToken) {
-    throw new Error('Contentful space ID and access token need to be provided.')
-  }
-}
-
 
 module.exports = {
   siteMetadata: {
@@ -90,18 +71,20 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `70edozw29xn2`,
-        accessToken: `XOxcVTBTfWD2kZq_DNakRM5aiOE3af5Eoyy5LEFRBeA`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.XOxcVTBTfWD2kZq_DNakRM5aiOE3af5Eoyy5LEFRBeA,
+        downloadLocal: true,
       },
     },
     {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `70edozw29xn2`,
-        accessToken: `HE3LY3dl0t_8Cg97mq97_RN72PhpJ-Su5fjlZ7_KQUM`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.HE3LY3dl0t_8Cg97mq97_RN72PhpJ-Su5fjlZ7_KQUM,
         host: `preview.contentful.com`,
       },
     },
-    
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
