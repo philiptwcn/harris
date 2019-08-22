@@ -1,4 +1,23 @@
 var proxy = require('http-proxy-middleware')
+const config = require('./src/utils/siteConfig')
+let contentfulConfig
+
+try {
+  contentfulConfig = require('./.contentful')
+} catch (e) {
+  contentfulConfig = {
+    production: {
+      spaceId: process.env.SPACE_ID,
+      accessToken: process.env.ACCESS_TOKEN,
+    },
+  }
+} finally {
+  const { spaceId, accessToken } = contentfulConfig.production
+  if (!spaceId || !accessToken) {
+    throw new Error('Contentful space ID and access token need to be provided.')
+  }
+}
+
 
 module.exports = {
   siteMetadata: {
@@ -82,6 +101,7 @@ module.exports = {
         host: `preview.contentful.com`,
       },
     },
+    
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
