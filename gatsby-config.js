@@ -1,5 +1,10 @@
 var proxy = require('http-proxy-middleware')
 
+/*let env = process.env.NODE_ENV || 'development';
+
+// This adds dotenv (for storing environment variables) to gatsby
+require('dotenv').config({path: `./.env.${env}`});*/
+
 module.exports = {
   siteMetadata: {
     title: 'Harris Asia',
@@ -67,24 +72,21 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
-    {
+    /*{
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `70edozw29xn2`,
-        // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.XOxcVTBTfWD2kZq_DNakRM5aiOE3af5Eoyy5LEFRBeA,
-        downloadLocal: true,
+        spaceId: `${process.env.CONTENTFUL_SPACE_ID}`,
+        accessToken: `${process.env.CONTENTFUL_ACCESS_TOKEN}`,
       },
     },
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `70edozw29xn2`,
-        // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.HE3LY3dl0t_8Cg97mq97_RN72PhpJ-Su5fjlZ7_KQUM,
+        spaceId: `${process.env.CONTENTFUL_SPACE_ID}`,
+        accessToken: `${process.env.CONTENTFUL_PREVIEW_TOKEN}`,
         host: `preview.contentful.com`,
       },
-    },
+    },*/
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
