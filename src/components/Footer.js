@@ -44,16 +44,6 @@ const Footer = class extends React.Component {
                         Form Examples
                       </Link>
                     </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
                   </ul>
                 </section>
               </div>
@@ -105,6 +95,9 @@ const Footer = class extends React.Component {
                 </a>
               </div>
             </div>
+            <p className="is-small">
+              2019 Harris-Asia Group all right reserved.
+            </p>
           </div>
         </div>
       </footer>
